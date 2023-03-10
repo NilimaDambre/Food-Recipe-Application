@@ -18,7 +18,7 @@ const Meal = () => {
                     <h4>Search For Any Ingridient...</h4>
                 </div>
                 <div className="searchBox">
-                    <input type="search" className="search-bar" onChange={(e)=>setSearch(e.target.value)} value={search} onKeyPress={searchMeal}/>
+                    <input type="search" className="search-bar" placeholder="e.g. chicken" onChange={(e)=>setSearch(e.target.value)} value={search} onKeyPress={searchMeal}/>
                 </div>
                 <div className="container">
                    {   
